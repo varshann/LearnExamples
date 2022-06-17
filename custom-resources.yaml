@@ -16,7 +16,7 @@ spec:
       nodeSelector: all()
   controlPlaneTolerations:
     - key: "node-role.kubernetes.io/control-plane"
-      effect: NoSchedule-
+      effect: NoSchedule
 
 ---
 
